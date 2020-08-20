@@ -1,0 +1,21 @@
+coding hacks
+
+Command prompt/line-
+1. For fast type,use (first letter of search) tab arrows.
+2. Also up/down arrows,allows previous search items.
+
+3.Delete a file=Del
+4.Remove a repo=rmdir
+5.Search a file= dir ["file name"]
+
+6.Move a file=move [file name] [location:pathname] i.e C: \ Documents 
+7.Showing content of file= type [file name]
+8.list content of directory= dir
+
+9.move to a file= cd
+
+Git init
+10.
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
