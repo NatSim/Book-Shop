@@ -15,7 +15,15 @@ Command prompt/line-
 9.move to a file= cd
 
 Git init
-10.
+10. i.Create a directory in Desktop.
+    ii.Create file inside dir.
+i.Create repo in Github(name etc).
+    iii. *command prompt* Git init(initiates .git tracking file) file inside will be untracked.
+    iv. git add file to track.   >>>git status<<<check progress
+    v. git commit -m"add message"
+    vi. git remote add origin https://github.com/NatBig/shortcuts.git
+        C:\Users\Natasha\Desktop\Shortcuts>git push -u origin master
+
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
