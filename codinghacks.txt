@@ -1,4 +1,5 @@
 coding hacks
+To open command prompt=windows button+R Enter.
 
 Command prompt/line-
 1. For fast type,use (first letter of search) tab arrows.
@@ -6,9 +7,9 @@ Command prompt/line-
 
 3.Delete a file=Del
 4.Remove a repo=rmdir
-5.Search a file= dir ["file name"]
+5.Search a file= dir ["file name"] /s
 
-6.Move a file=move [file name] [location:pathname] i.e C: \ Documents 
+6.Move a file=move [file name] [location:pathname] i.e C:Users\Documents 
 7.Showing content of file= type [file name]
 8.list content of directory= dir
 
@@ -23,6 +24,7 @@ i.Create repo in Github(name etc).
     v. git commit -m"add message"
     vi. git remote add origin https://github.com/NatBig/shortcuts.git
         C:\Users\Natasha\Desktop\Shortcuts>git push -u origin master
+11.
 
 
 
