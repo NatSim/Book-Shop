@@ -24,8 +24,7 @@ i.Create repo in Github(name etc).
     v. git commit -m"add message"
     vi. git remote add origin https://github.com/NatBig/shortcuts.git
         C:\Users\Natasha\Desktop\Shortcuts>git push -u origin master
-11.
-
+11.Automatic HTML template= open save file as .html then "!" 
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
