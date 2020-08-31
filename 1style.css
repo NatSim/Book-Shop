@@ -1,6 +1,7 @@
 body {
-    font: arial;
     background-color: #FEC196;
+    padding:15px;
+    margin: 50px;
 }
              /* HEADER SECTIONS*/ 
 .header h1,             
@@ -14,18 +15,13 @@ body {
     
 }
 
-.book {
- border-bottom: 1px solid rgb(...);
+.parent {
+ border-bottom: 1px solid rgb();
+ display: flex;
+ 
+ 
 }
 
-/*.book .addbtn,
-.searchBar input[type=submit] {
-  padding: 8px 10px;
-  border-radius: 5px;
-  min-width: 80px;
-  float: right;
-  font-size: 1.1em;
-} */
                 /*SEARCH BAR SECTION*/
 .searchBar {
     position: relative;
@@ -47,31 +43,12 @@ body {
 .nav-fill {
     width: auto;
     overflow: hidden;
+        
 }
-
 
 .book .addbtn {
 background-color: rgb(79, 149, 255);
 }
- /*new inputs*/
-
-/*LABEL UNDER SEARCH BAR*/
-
-#label {
-    text-align: center;
-}
-
-div {
-    font-family: ;
-    color: whitesmoke;
-
- } 
-
- .book h2 {
-     font-family: sans-serif;
-
-
- }
 
 * {
 box-sizing: border-box;
@@ -90,3 +67,16 @@ box-sizing: border-box;
  width: 80%;
  margin-right: 5px;
  }
+
+  /*new inputs*/
+
+               /*LABEL UNDER SEARCH BAR*/
+
+label {
+    text-align: center;
+}
+
+div {
+    color: whitesmoke;
+
+ } 
