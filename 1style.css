@@ -1,31 +1,71 @@
-.header h1,
+body {
+    font: arial;
+    background-color: #FEC196;
+}
+             /* HEADER SECTIONS*/ 
+.header h1,             
 .header .breadcrumb {
- text-align: center;
+    text-align: center;
 }
 
 .container {
     font-family:sans-serif;
-    color: firebrick;
+    color: #63474D;
+    
 }
 
 .book {
  border-bottom: 1px solid rgb(...);
-.book .addbtn,
-.searchBar input[type=submit] {
---padding: 8px 10px;
---border-radius: 5px;
---min-width: 80px;
---float: right;
---font-size: 1.1em;
 }
+
+/*.book .addbtn,
+.searchBar input[type=submit] {
+  padding: 8px 10px;
+  border-radius: 5px;
+  min-width: 80px;
+  float: right;
+  font-size: 1.1em;
+} */
+                /*SEARCH BAR SECTION*/
+.searchBar {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background: 0 0;
+    border: none;
+    text-align: center;
+    line-height: 1px;
+}
+
+.nav-fill {
+    width: auto;
+    overflow: hidden;
+}
+
+
 .book .addbtn {
 background-color: rgb(79, 149, 255);
 }
  /*new inputs*/
 
+/*LABEL UNDER SEARCH BAR*/
+
+#label {
+    text-align: center;
+}
+
 div {
-    font-family: Impact;
- }
+    font-family: ;
+    color: whitesmoke;
+
+ } 
 
  .book h2 {
      font-family: sans-serif;
