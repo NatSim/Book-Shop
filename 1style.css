@@ -1,3 +1,19 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
 body {
     background-color: #FEC196;
     padding:15px;
@@ -12,12 +28,6 @@ body {
 .container {
     font-family:sans-serif;
     color: #63474D;
-    
-}
-
-.parent {
- border-bottom: 1px solid rgb();
- display: flex;
  
  
 }
@@ -33,7 +43,7 @@ body {
     margin: 0;
     cursor: pointer;
     outline: 0;
-    color: #fff;
+    color: rgb(12, 12, 11);
     background: 0 0;
     border: none;
     text-align: center;
@@ -56,7 +66,7 @@ box-sizing: border-box;
  .searchBar form {
  width: 100%;
  padding-bottom: 20px;
- border-bottom: 1px solid #dbdbdb;
+ border-bottom: 1px solid #376c97;
  }
  .searchBar input[type=text] {
  border-radius: 5px;
@@ -77,6 +87,6 @@ label {
 }
 
 div {
-    color: whitesmoke;
+    color: rgb(70, 61, 61);
 
  } 
