@@ -1,4 +1,4 @@
-const books =[ 
+export const books =[ 
      {
      name:"Off Camera",
      author:"Marcia Layne", 
@@ -184,8 +184,5 @@ const books =[
     },
    
     
-    
-    
-    
-    
     ]
+
