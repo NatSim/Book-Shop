@@ -1,45 +1,49 @@
-export default function createListOfBooks(books) {
+import { books } from "/bookshopindex.js";
+
+export default function createBookList() {
   const bookListSection = document.querySelector("#list");
-  const title = document.createElement("h2");
-  const titleText = document.createTextNode("Suggested Reading");
-  const bookDiv = document.createElement("div");
-  //Function area MAP Method 1
 
-  book.map((books) => {
-    const bookDivItem = document.createElement("div");
-    bookDivItem.className = "book"; 
-    const bookImage = document.createElement("img"); 
-    bookImage.src = book.image;
-    bookImage.alt = book.name;
-    const bookContentDiv = document.createElement("h2");
-    bookTitle.title = book.name;
-    const bookAuthor = document.createElement("p");
-    bookAuthor.src = book.author;
-    bookAuthor.textContent = book.author;
-    const bookPrice = document.createElement("p");
-    bookPrice.className = ("price");
-    bookPrice.textContent = book.price;
-    const bookDescription = document.createElement("summary");
-    bookDescription.className = ("description");
-    bookDescription.textContent = book.description;
-    const buttonDiv = document.createElement("div");
-    const addBookButton = document.createElement("button")
-    addBookButton.class = "addbtn";
-    addBookBtn.textContent = "Add +";
+  const bookDiv     = document.createElement("div");
+  for (let i = 0; i < books.length; i++) {
+    const bookContent   = document.createElement("div");
+    const image         = document.createElement("img");
+    const title         = document.createElement("h2");
+    const author        = document.createElement("p");
+    const price         = document.createElement("p");
+    const description   = document.createElement("summary");
+    // const cta           = document.createTextNode("Suggested Reading"); // CTA stands for `Call To Action`.
+    const cta           = document.createElement("button")
 
-    bookContentDiv.appendChild(bookTitle);
-    bookContentDiv.appendChild(bookAuthor);
-    bookContentDiv.appendChild(bookPrice);
-    bookContentDiv.appendChild(bookDescription);
-  
-    bookDivItem.appendChild(bookImage);
-    bookDivItem.appendChild(bookContentDiv);
-    buttonDiv.appendChild(addBookBtn);
-    bookDivItem.appendChild(buttonDiv);
-    bookDiv.appendChild(bookDivItem);
-  });
-  
-  title.appendChild(titleText);
-  bookListSection.appendChild(title);
-  bookListSection.appendChild(bookDiv);
+
+    bookDiv.className = "book";
+
+    image.src         = books[i].image;
+    image.alt         = books[i].name;
+    title.textContent = books[i].name;
+    // Author, price, desc, button?
+    author.appendChild(
+      document.createTextNode(books[i].author)
+    );
+    price.appendChild(
+      document.createTextNode(books[i].price)
+    );
+    description.className = ("description");
+    description.textContent = books[i].description;
+    cta.class = "addbtn";
+    cta.textContent = "Add +";
+
+
+    bookContent.appendChild(image);
+    bookContent.appendChild(title);
+    bookContent.appendChild(author);
+    bookContent.appendChild(price);
+    bookContent.appendChild(description);
+    bookContent.appendChild(cta);
+
+    bookListSection.appendChild(
+      bookDiv.appendChild(bookContent)
+    );
+  }
+
+  return bookListSection;
 }

@@ -158,9 +158,5 @@ export const books =[{
      price:"£7.99" , 
      description:"THE TOP 10 NEW YORK TIMES BESTSELLER LONGLISTED FOR THE WOMEN'S PRIZE 2020 'Will remind you why you love reading' Stylist (Best New Books for 2020)'Sublime... will strike you in the heart' Candice Carty-Williams, author of Queenie'Profound, moving and consistently unexpected... Pure poetry' Observ...",
      image:"http://books.google.com/books/content?id=GLisDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-    },
-   
-    
-    ];
-
-
+    } 
+];
