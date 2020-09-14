@@ -11,7 +11,6 @@ export default function createBookList() {
     const author        = document.createElement("p");
     const price         = document.createElement("p");
     const description   = document.createElement("summary");
-    // const cta           = document.createTextNode("Suggested Reading"); // CTA stands for `Call To Action`.
     const cta           = document.createElement("button")
 
 
