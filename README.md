@@ -28,3 +28,12 @@ Way much easier to see `mkdir MY_DIR_NAME` is a command, and therefore, to selec
 
 Just by using the quotes ``` (one at the beginning and one at the end of the `word` you want to be shown like `this` :) hehehe)
 
+
+### Edit Carlos V.
+
+Creating a server with node, needed to allow javascript to load modules, as per:
+https://stackoverflow.com/questions/50197495/javascript-modules-and-cors#answer-50197517
+
+Run: `npm install http-server -g`
+Then run: `http-server ./`
+Then visit: `http://localhost:8080/bookshop1index.html`
