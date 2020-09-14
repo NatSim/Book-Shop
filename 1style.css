@@ -111,7 +111,7 @@ h1 {
 
 .book,
 .page,
-.list {
+#list {
     padding: 5px 10px;
     max-width: q;
 }
