@@ -6,7 +6,7 @@ export default function createBookList() {
   const bookDiv     = document.createElement("div");
   for (let i = 0; i < books.length; i++) {
     const bookContent   = document.createElement("div");
-    const image         = document.createElement("img");
+    const image         = document.createElement("img");  //246 x 400 image size
     const title         = document.createElement("h2");
     const author        = document.createElement("p");
     const price         = document.createElement("p");
@@ -17,7 +17,9 @@ export default function createBookList() {
     bookDiv.className = "book"; 
 
     image.src         = books[i].image; //i=index[0,1,2,3]
-    image.alt         = books[i].name;  //attributes
+    image.alt         = books[i].name;  //image attributes
+    image.height      = 400;
+    image.width       = 246;
     title.textContent = books[i].name; // added to h2 tag
     // Author, price, desc, button?
     author.appendChild(
