@@ -27,6 +27,8 @@ i.Create repo in Github(name etc).
 11.Automatic HTML template= open save file as .html then "!" 
 
 12. To comment a large section out in JS select items = CTRL //.
+13.To aline intentation press ctrl tab
+14.[./]-means .this/file
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

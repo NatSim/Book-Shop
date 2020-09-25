@@ -17,7 +17,7 @@ export const books =[{
      author:"Akala",
      price:"£8.99", 
      description:"A searing modern polemic and Sunday Times bestseller from the BAFTA and MOBO award-winning musician and political commentator, Akala. From the first time he was stopped and searched as a child,to the day he realised his mum was white, to his first encounters with racist teachers - race and class have shaped Akala's life and outlook.In this unique book he takes his own experiences and widens them out to look at the social,historical and political factors that have left us where we are today.Covering everything from the police, education and identity to politics, sexual objectification and the far right,Natives will speak directly to British denial and squeamishness when it comes to confronting issues of race and class that are at the heart of the legacy of Britain's racialised empire.",
-     image:"https://www.waterstones.com/book/the-dark-lady/akala/9781444943696"
+     image:"https://upload.wikimedia.org/wikipedia/en/9/96/Natives_-_Race_and_Class_in_the_Ruins_of_Empire.jpeg"
     },
      {
      name:"Queenie",
