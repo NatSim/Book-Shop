@@ -12,7 +12,7 @@ export default function createBookList() {
     const price         = document.createElement("p");
     const description   = document.createElement("summary");
     const cta           = document.createElement("button")   //call to action
-
+    const cta2          = document.createElement("button")
 
     bookDiv.className = "book"; 
 
@@ -28,10 +28,16 @@ export default function createBookList() {
     price.appendChild(
       document.createTextNode(books[i].price)
     );
-    description.className = ("description");
+    description.className = ("description");           //className for CSS
     description.textContent = books[i].description; 
-    cta.className = "addbtn";      //Note to Carlos missed className?!?
-    cta.textContent = "Add +";
+    cta.className    = "addbtn";      //
+    cta.textContent  = "Add +";
+    cta2.className   = "rmvbtn";
+    cta2.textContent = "Remove -";
+    price.className  =("price");
+    price.textContent= books[i].price;
+    author.className = ("author");       
+    author.textContent=books[i].author;
 
 
     bookContent.appendChild(image);
@@ -40,6 +46,7 @@ export default function createBookList() {
     bookContent.appendChild(price);
     bookContent.appendChild(description);
     bookContent.appendChild(cta);
+    bookContent.appendChild(cta2);
 
     bookListSection.appendChild(
       bookDiv.appendChild(bookContent)
