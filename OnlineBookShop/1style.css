@@ -143,13 +143,14 @@ h1 {
 
 .book .addbtn,
 .searchBar input[type=submit] {
-    padding: 8px 10px;
+    padding: 15px 15px;
     border: 0px;
     border-radius: 5px;
     min-width: 80px;
     color: #fff;
     float: right;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
  .addbtn {
@@ -158,6 +159,7 @@ h1 {
     position: relative;
     padding: 10px 15px;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .rmvbtn {
