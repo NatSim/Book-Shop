@@ -23,20 +23,20 @@ export default function createBookList() {
     title.textContent = books[i].name; // added to h2 tag
     // Author, price, desc, button?
     author.appendChild(
-      document.createTextNode(books[i].author) //?!? why done this way
+      document.createTextNode(books[i].author) //?!? 
     );
     price.appendChild(
       document.createTextNode(books[i].price)
     );
     description.className = ("description");           //className for CSS
     description.textContent = books[i].description; 
-    cta.className    = "addbtn";      //
-    cta.textContent  = "Add +";
-    cta2.className   = "rmvbtn";
-    cta2.textContent = "Remove -";
-    price.className  =("price");
-    price.textContent= books[i].price;
-    author.className = ("author");       
+    cta.className     = "addbtn";      //
+    cta.textContent   = "Add +";
+    cta2.className    = "rmvbtn";
+    cta2.textContent  = "Remove -";
+    price.className   =("price");
+    price.textContent = books[i].price;
+    author.className  = ("author");       
     author.textContent=books[i].author;
 
 
@@ -45,7 +45,7 @@ export default function createBookList() {
     bookContent.appendChild(author);
     bookContent.appendChild(price);
     bookContent.appendChild(description);
-    bookContent.appendChild(cta);
+    bookContent.appendChild(cta);          //Need to append butttons to div above/currently in wrong div
     bookContent.appendChild(cta2);
 
     bookListSection.appendChild(
