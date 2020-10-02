@@ -11,6 +11,7 @@ export default function createBookList() {
     const author        = document.createElement("p");
     const price         = document.createElement("p");
     const description   = document.createElement("summary");
+    const lineBreak     = document.createElement("br");
     const cta           = document.createElement("button")   //call to action
     const cta2          = document.createElement("button")
 
@@ -21,6 +22,8 @@ export default function createBookList() {
     image.height      = 400;
     image.width       = 246;
     title.textContent = books[i].name; // added to h2 tag
+    image.lineBreak   = books[i].image;
+    
     // Author, price, desc, button?
     author.appendChild(
       document.createTextNode(books[i].author) //?!? 
@@ -28,6 +31,9 @@ export default function createBookList() {
     price.appendChild(
       document.createTextNode(books[i].price)
     );
+
+
+    
     description.className = ("description");           //className for CSS
     description.textContent = books[i].description; 
     cta.className     = "addbtn";      //
@@ -38,6 +44,7 @@ export default function createBookList() {
     price.textContent = books[i].price;
     author.className  = ("author");       
     author.textContent=books[i].author;
+      
 
 
     bookContent.appendChild(image);
@@ -47,6 +54,7 @@ export default function createBookList() {
     bookContent.appendChild(description);
     bookContent.appendChild(cta);          //Need to append butttons to div above/currently in wrong div
     bookContent.appendChild(cta2);
+    bookContent.appendChild(lineBreak);
 
     bookListSection.appendChild(
       bookDiv.appendChild(bookContent)

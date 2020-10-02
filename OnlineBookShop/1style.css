@@ -33,7 +33,7 @@ body {
 
 .container {
     font-family:sans-serif;
-    color: #63474D;
+    color: #11262D;
 
 }
 
@@ -127,6 +127,7 @@ h1 {
 
 .book h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: #11262D;
 }
 
 .book .author {
@@ -203,7 +204,7 @@ h1 {
 .author {
     font-weight: bolder;
     font-size: large;
-    color:#9D69A3;
+    color:#C33149;
     
 }
 
