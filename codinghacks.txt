@@ -31,6 +31,6 @@ i.Create repo in Github(name etc).
 14.[./]-means .this/file
 
 15.To highlight and delete multiple areas of code in VSC,ctrl D
-
+16.JSX CODE-Margin space =m-2(in return)
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
