@@ -116,6 +116,10 @@ h1 {
     max-width: q;
 }
 
+.book {
+    border-bottom: grey 1px solid;
+
+}
 .book div {
     padding-left: 10px;
 }
@@ -156,7 +160,7 @@ h1 {
 
  .addbtn {
     background-color: rgb(79, 149, 255);
-    float: right;
+    /* float: right; */
     position: relative;
     padding: 10px 15px;
     font-weight: bold;
@@ -168,7 +172,7 @@ h1 {
     border: 10px;
     border-radius: 20px;
     color: #fff;
-    float: right;
+    /* float: right; */
     font-size: 1.1em;
     background-color: #bd1515;
     font-weight: bold;
