@@ -1,39 +1,99 @@
-# Hey Natasha, this is a Markdown file, has the `.md` extension...
-# Markdown is widely used. Its purpose is to document, in a professional way, the code you produce.
+<h1>Bookcase</h1>
 
-- It is nice because GitHub renders the `.md` files in a nice way that the human eye can read easier, just like HTML.
-
-- Essentially it is just text files like the `.txt` but you can appply in them some formats specified in Markdown
+Project name is **Bookcase** that allows readers to find, collect and store their favourite books.
 
 
-## BTW, Natasha, you can apply different titles like `<h1>`, `<h2>`, `<h3>` and so on in HTML, but in Markdown they have another syntax...
+This bookcase uses **Vanilla JavaScript** has many features which include:
+
+* **Multiple components** -which allow for Multiple pages/features. 
+* **Serachbar** - Users may search through the available BookList homepage or browse within the  to locate their desired books.
+* **An API**- which allows access to a broad book database.
+* **A Bookcase Page**- which allows a user to store their chosen books.
+ **Add & Remove button**- Users may click on each button to either add a book to their bookcase or remove it.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-### Let me Go with a link, so you can have a look:
+<h2>Prerequisites</h2>
 
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), a nice person in GitHub sharing all to be ready for copy&paste in your own `.md` files.
+Before you continue, ensure you have met the following requirements:
 
-- Have a look, its interesting, titles, paragraphs, there are even tables...
+* You have a basic understanding of React Framework/JavaScript
+* React Functional Components
+* Props and State
 
+<h3>Contributors</h3>
 
+Thanks to the following people who have contributed to this project:
 
+🧑‍🏫 @shawsy171
 
-### I am telling you all this, because it easy and because its handy.
+<h4>Contact</h4>
 
-When it comes to create stuf like `thecodinghacks.txt`, if you do it a Markdown, `thecodinghacks.md`...
+If you want to contact me you can reach me at: natsimbig@gmail.com
 
-Then you can see how cool&easy to read are commands when they are specified within the quotes in markdown.
-
-Way much easier to see `mkdir MY_DIR_NAME` is a command, and therefore, to select it and copy.
-
-Just by using the quotes ``` (one at the beginning and one at the end of the `word` you want to be shown like `this` :) hehehe)
-
-
-### Edit Carlos V.
-
-Creating a server with node, needed to allow javascript to load modules, as per:
-https://stackoverflow.com/questions/50197495/javascript-modules-and-cors#answer-50197517
-
-Run: `npm install http-server -g`
-Then run: `http-server ./`
-Then visit: `http://localhost:8080/bookshop1index.html`
