@@ -1,39 +1,31 @@
-# Hey Natasha, this is a Markdown file, has the `.md` extension...
-# Markdown is widely used. Its purpose is to document, in a professional way, the code you produce.
+<h1>Bookcase</h1>
 
-- It is nice because GitHub renders the `.md` files in a nice way that the human eye can read easier, just like HTML.
-
-- Essentially it is just text files like the `.txt` but you can appply in them some formats specified in Markdown
+Project name is **Bookcase** that allows readers to find, collect and store their favourite books.
 
 
-## BTW, Natasha, you can apply different titles like `<h1>`, `<h2>`, `<h3>` and so on in HTML, but in Markdown they have another syntax...
+This bookcase uses **Vanilla JavaScript** has many features which include:
+
+* **Multiple components** -which allow for Multiple pages/features. 
+* **Serachbar** - Users may search through the available BookList homepage or browse within the  to locate their desired books.
+* **An API**- which allows access to a broad book database.
+* **A Bookcase Page**- which allows a user to store their chosen books.
+ **Add & Remove button**- Users may click on each button to either add a book to their bookcase or remove it.
 
 
-### Let me Go with a link, so you can have a look:
+<h2>Prerequisites</h2>
 
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), a nice person in GitHub sharing all to be ready for copy&paste in your own `.md` files.
+Before you continue, ensure you have met the following requirements:
 
-- Have a look, its interesting, titles, paragraphs, there are even tables...
-
-
+* You have a basic understanding of JavaScript
 
 
-### I am telling you all this, because it easy and because its handy.
+<h3>Contributors</h3>
 
-When it comes to create stuf like `thecodinghacks.txt`, if you do it a Markdown, `thecodinghacks.md`...
+Thanks to the following people who have contributed to this project:
 
-Then you can see how cool&easy to read are commands when they are specified within the quotes in markdown.
+🧑‍🏫 @shawsy171
 
-Way much easier to see `mkdir MY_DIR_NAME` is a command, and therefore, to select it and copy.
+<h4>Contact</h4>
 
-Just by using the quotes ``` (one at the beginning and one at the end of the `word` you want to be shown like `this` :) hehehe)
+If you want to contact me you can reach me at: natsimbig@gmail.com
 
-
-### Edit Carlos V.
-
-Creating a server with node, needed to allow javascript to load modules, as per:
-https://stackoverflow.com/questions/50197495/javascript-modules-and-cors#answer-50197517
-
-Run: `npm install http-server -g`
-Then run: `http-server ./`
-Then visit: `http://localhost:8080/bookshop1index.html`
